@@ -33,6 +33,14 @@ dependencies {
 	// SLF4J for logging
 	implementation 'org.slf4j:slf4j-api'
 
+	compileOnly 'org.projectlombok:lombok:1.18.26'
+	annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+	testCompileOnly 'org.projectlombok:lombok:1.18.26'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+
+
 
 
 
