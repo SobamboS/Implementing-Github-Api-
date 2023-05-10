@@ -31,7 +31,7 @@ public class CommitService{
 
         public List<JSONObject> getCommits() throws IOException, InterruptedException {
             HttpClient httpClient = HttpClient.newBuilder()
-                    .version(HttpClient.Version.HTTP_2)
+                 //   .version(HttpClient.Version.HTTP_2)
                     .build();
 
             HttpRequest request = HttpRequest.newBuilder()
